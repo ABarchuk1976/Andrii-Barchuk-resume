@@ -1,0 +1,126 @@
+body {
+  font-family: 'Roboto', 'Arial', sans-serif;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.14;
+}
+
+*:focus-visible {
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.7);
+}
+
+.white-sheet {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 0 auto;
+  border-radius: 0 52px 0 0;
+}
+
+.main-section {
+  padding: 2.5rem;
+}
+
+.section {
+  padding: 1rem;
+}
+
+.hero-section {
+  height: 23rem;
+}
+
+.h1-title {
+  display: block;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.h2-title {
+  display: block;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.h2_unperline {
+  border-bottom: 1px solid black;
+}
+
+.h3-title {
+  display: block;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.h4-title {
+  display: block;
+  font-size: 1rem;
+  text-decoration: underline;
+}
+
+.text {
+  margin-bottom: 0.5rem;
+}
+
+.project-item {
+  display: flex;
+  align-items: start;
+  justify-content: end;
+}
+
+.button-set {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 130px;
+  padding: 0.25rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.aside-section {
+  padding: 2.5rem;
+  background-color: #eeeeee;
+  border-radius: 0 52px 0 0;
+}
+
+.img {
+  width: 20rem;
+  border-radius: 2rem;
+  margin-bottom: 3rem;
+}
