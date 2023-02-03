@@ -45,21 +45,28 @@ img {
 
 .main-section {
   padding: 2.5rem;
+  padding-bottom: 0;
 }
 
 .section {
   padding: 1rem;
+  padding-bottom: 0;
 }
 
 .subsection {
   list-style: none;
+  margin-bottom: 1rem;
+}
+
+.subsection-item {
+  margin-bottom: 2.5rem;
 }
 
 .hero-section {
   display: flex;
   align-items: center;
   height: 20rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .h1-title {
@@ -79,11 +86,12 @@ img {
 
 .h2_unperline {
   border-bottom: 1px solid black;
+  border-radius: 0 0 1rem 0;
 }
 
 .h3-title {
   display: block;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: uppercase;
   margin-bottom: 0.5rem;
 }
@@ -91,12 +99,15 @@ img {
 .h4-title {
   display: block;
   font-size: 1rem;
-  text-decoration: underline;
 }
 
 .text {
   margin-top: 0.25rem;
   margin-bottom: 0.5rem;
+}
+
+.text-accent {
+  font-weight: 600;
 }
 
 .square-style {
@@ -110,20 +121,22 @@ img {
 }
 
 .link {
-  display: inline-block;
-  width: fit-content;
-  padding: 0.25rem 0.5rem;
   color: black;
-  border: 1px solid black;
-  border-radius: 0.25rem;
-  background-color: white;
-  margin-right: 0.5rem;
+  background-color: transparent;
   text-decoration: none;
 }
 
-.link:hover,
-.link:focus {
-  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.7);
+.link-bordered {
+  display: inline-block;
+  width: fit-content;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  margin-right: 0.5rem;
+}
+
+.link-bordered:hover,
+.link-bordered:focus {
   background-color: #eeeeee;
 }
 
@@ -143,9 +156,30 @@ img {
 
 .aside-img {
   width: 20rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
+  border-radius: 1rem;
 }
 
 .aside-inner {
   padding: 1rem 0;
+}
+
+.aside-item {
+  margin-bottom: 4rem;
+}
+
+.aside-subsection li {
+  margin-bottom: 1rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.contact-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
 }
