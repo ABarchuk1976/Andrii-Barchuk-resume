@@ -38,9 +38,11 @@ img {
 }
 
 .white-sheet {
+  max-width: 1200px;
   display: flex;
   flex-direction: row-reverse;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-section {
